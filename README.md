@@ -91,9 +91,3 @@ The final model achieves a strong balance suitable for a banking environment:
 | **Precision** | **76%** | Low False Positive rate (Customers aren't annoyed by false alarms). |
 | **Recall** | **73%** | High Detection rate (Captures the majority of fraud cases). |
 | **AUC-ROC** | **0.98** | Excellent separation between Fraud and Legit classes. |
-
-## 🛠️ How to Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/yourusername/fraud-detection.git](https://github.com/yourusername/fraud-detection.git)
-
