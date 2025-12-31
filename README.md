@@ -17,22 +17,38 @@ The dataset used for this project contains simulated credit card transaction dat
 - **Test Size:** ~500k rows
 - **Columns:**
    trans_date_trans_time – The exact timestamp of the purchase.
-   cc_num – The unique Credit Card Number.
-   merchant – The name of the store.
-   category – The type of business.
-   amt – The amount spent in dollar.
-   first / last – The customer's First and Last Name.
-   gender – The customer's gender.
-   street / city / zip – The customer's home address text.
-   state – The US State of the customer.
-   lat / long – The exact GPS coordinates of the Customer's Home.
-   city_pop – The population of the customer's city.
-   job – The customer's profession.
-   dob – The customer's Date of Birth.
-   trans_num – A unique random ID for the transaction.
-   unix_time – The time represented in seconds.
-   merch_lat / merch_long – The exact GPS coordinates of the Merchant/Store.
-   is_fraud – The Target Variable (0 = Legit, 1 = Fraud); the answer key your model uses to learn and be evaluated.
+
+cc_num – The unique Credit Card Number.
+
+merchant – The name of the store.
+
+category – The type of business.
+
+amt – The amount spent in dollars.
+
+first / last – The customer's First and Last Name.
+
+gender – The customer's gender.
+
+street / city / zip – The customer's home address text.
+
+state – The US State of the customer.
+
+lat / long – The exact GPS coordinates of the Customer's Home.
+
+city_pop – The population of the customer's city.
+
+job – The customer's profession.
+
+dob – The customer's Date of Birth.
+
+trans_num – A unique random ID for the transaction.
+
+unix_time – The time represented in seconds.
+
+merch_lat / merch_long – The exact GPS coordinates of the Merchant/Store.
+
+is_fraud – The Target Variable (0 = Legit, 1 = Fraud).
 
 ## ⚙️ Tech Stack
 - **Language:** Python
