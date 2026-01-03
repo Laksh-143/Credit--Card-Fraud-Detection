@@ -79,6 +79,7 @@ Used **BorderlineSMOTE** (Synthetic Minority Over-sampling Technique) to generat
 
 ### 3. Model Training
 Trained an **XGBoost Classifier** with `tree_method='hist'` for efficiency on large tabular data.
+Also included the other model like Random Forest , DEcision Tree and LGBM Classifier.
 
 ### 4. Threshold Optimization
 Instead of the default 0.5 threshold, I utilized the **Precision-Recall Curve** to mathematically find the optimal decision threshold (e.g., 0.9745) that maximizes the F1-Score.
